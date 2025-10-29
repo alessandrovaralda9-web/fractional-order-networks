@@ -81,23 +81,32 @@ ver  % Lists all installed toolboxes
    addpath(genpath('path/to/fractional-order-networks'))
    ```
 
-## Repository Structure
+---
+
+## Repository structure
 
 ```
 fractional-order-networks/
-├── Fractional_Order_Network_param_est_with_subnet_decomp.m  % Main script
+├── Fractional_Order_Network_param_est_with_subnet_decomp.m   % Main script
 ├── classes/
-│   └── FON_Graph_Class.m                    % FON class with graph structure
-│                                            % (includes static methods: FON_psi, FON_Dtilde, FON_z_sim)
+│   ├── FON_Class.m
+│   └── FON_Graph_Class.m
 ├── functions/
-│   ├── generateSparseNetwork.m               % Random network generation
-│   └── no_input_estimation_with_known_params.m  % Parameter estimation (Stage 1)
+│   ├── FON_Dtilde.m
+│   ├── FON_psi.m
+│   ├── FON_z_sim.m
+│   ├── generateSparseNetwork.m
+│   └── no_input_estimation_with_known_params.m
 ├── examples/
-│   └── example_usage.m                      % Simple demonstration
+│   └── example_usage.m
 ├── README.md
 ├── LICENSE
 └── .gitignore
 ```
+
+> The file/folder list above matches the current repository contents. If you add or rename files later, please update this section.
+
+---
 
 ## Quick Start
 
