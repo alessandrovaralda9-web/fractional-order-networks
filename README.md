@@ -16,7 +16,7 @@ This repository contains the MATLAB implementation of parameter estimation metho
 
 This repository accompanies the paper:
 
-> [Your Name(s)]. "**Structural Identifiability in Fractional-Order Networks**" *[Journal/Conference Name]*, [Year]. [[DOI/arXiv link](#)]
+> [Alessandro Varalda, Sergio Pequito]. "**Structural Identifiability in Fractional-Order Networks**" *[IFAC26]*, [2026]. [doi not yet available]
 
 ## Mathematical Framework
 
